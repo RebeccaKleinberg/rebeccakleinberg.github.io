@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+  <head>
+    <title>Rebecca is cool</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  </head>
+
+<body>
+  <div class="header">
+    <section><h1>REBECCA KLEINBERG</h1></section>
+    <section><h3>Portfolio</h3></section>
+    <section><h3>About</h3></section>
+    <section><h3>Blog</h3></section>
+    <section><h3>Contact</h3></section>
+  </div>
+
+<div class="main">
+    <h1>We Always Need More Tacos!!</h1>
+    <h2>A study of Ruby Classes</h2>
+    <h4>Note: This blog post is in honor of the exciting new taco emoji!</h4>
+
+    <section>
+      <p>
+        Objects are the organizing elements in Object-Oriented Programming, and in Ruby Programming, we use Classes to organize Objects. Classes give you, the programmer, the power to group behaviors into clusters, so that you can quickly create multiple new objects of a class that have the same behaviors and attributes.
+      </p>
+        Since we always need more tacos, let's use that as an example! In this case, I have created a class called Taco, and assigned it two attributes: the filling and the type of shell. To simplify the code, I used the attr_accessor method on the attributes to give them reader and writer capabilities. There may be a time that we want to access the instance variables in this class, and the attr_accessor method allows us to do so. I then initialize the attributes with the initialize method, assigning them variables with the same name as the attribute and an @ sign as the start of a variable name. This indicates that these are instance variable, i.e. they are only accessible in the Taco class. The next step is to create methods that can be called on any instance of the Taco class. In this case, I create the make_taco method, with a statement of the order to be processed.
+      <p>
+        Once the class is created, we can make as many tacos as we want! By creating a new variable called taco1 and assigning it a new instance of the Taco class, we can call the method within the Taco class on the new instance. We can create as many of these as we want, with various inputs for the type of filler and shell. Tacos for all!
+      </p>
+      <img src="../imgs/classTaco.png"/>
+    </section>
+
+  <h4>June 20, 2015</h4>
+
+</div>
+
+  <div class="footer">
+    <section><a href="#"><img src="../imgs/twitter.png" height="25" width="25"></a></section>
+    <section><a href="#"><img src="../imgs/facebook500.png" height="25" width="25"></a></section>
+    <section><a href="#"><img src="../imgs/github.png" height="25" width="25"></a></section>
+    <section><a href="#"><img src="../imgs/linkedin.png" height="25" width="25"></a></section>
+    <section><a href="#"><img src="../imgs/googleplus.png" height="25" width="25"></a></section>
+  </div>
+</body>

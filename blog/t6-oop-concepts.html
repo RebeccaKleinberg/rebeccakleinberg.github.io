@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+  <head>
+    <title>Rebecca Codes</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  </head>
+
+<body>
+  <div class="header">
+    <section><h1>REBECCA KLEINBERG</h1></section>
+    <section><h3>Portfolio</h3></section>
+    <section><h3>About</h3></section>
+    <section><h3>Blog</h3></section>
+    <section><h3>Contact</h3></section>
+  </div>
+
+<div class="main">
+    <h1>Chock-o-Proc</h1>
+    <h2>Blocks, Procs, Lamdas, and How They All Relate</h2>
+
+    <section>
+      <p>When learning Ruby, you spend a lot of time working with methods and code blocks. Within Ruby there is an object that ties these two concepts together, the Proc object. The Proc object is a special object that has the specific purpose to provide access to execute a previously defined block of code. A code block, which is not an object, can to act like an object when converted to a proc, and then we can use the proc in place of blocks.
+      </p>
+      <a href="#"><img src="../imgs/proc_ex.png"></a>
+      <p>A lambda is a proc, but it's a special kind of proc. It's considered "fussy" because it has rules and requirements that are more precise than whats required for a proc. For one, they require explicit creation. This means that any Proc object that is created will be a proc. If you want to create a Proc object that is a lambda, it must be specified. In addition, procs and lambdas treat the return keyword differently in that the return keyword inside a lambda will execute a return just outside of the lambda code and the return keyword inside a proc will execute a return outside of the method where the proc is being executed.
+      </p>
+      <a href="#"><img src="../imgs/lambda_proc_return_ex.png"></a>
+      <p>The third difference between a lambda and a proc is that, while a proc will not check the number of arguements given, the lambda will, and will throw an error if there is the wrong number of arguments. This is why is is considered "fussy".</p>
+      <a href="#"><img src="../imgs/lambda_proc_args_ex.png"></a>
+      <p>Procs and lambdas are closures, which means they are objects that contain a block of code that is executed whenever ever they are called</p>
+    </section>
+
+  <h4>June 27, 2015</h4>
+
+</div>
+
+  <div class="footer">
+    <section><a href="#"><img src="../imgs/twitter.png" height="25" width="25"></a></section>
+    <section><a href="#"><img src="../imgs/facebook500.png" height="25" width="25"></a></section>
+    <section><a href="#"><img src="../imgs/github.png" height="25" width="25"></a></section>
+    <section><a href="#"><img src="../imgs/linkedin.png" height="25" width="25"></a></section>
+    <section><a href="#"><img src="../imgs/googleplus.png" height="25" width="25"></a></section>
+  </div>
+</body>

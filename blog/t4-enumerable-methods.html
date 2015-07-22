@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+  <head>
+    <title>Rebecca is cool</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  </head>
+
+<body>
+  <div class="header">
+    <section><h1>REBECCA KLEINBERG</h1></section>
+    <section><h3>Portfolio</h3></section>
+    <section><h3>About</h3></section>
+    <section><h3>Blog</h3></section>
+    <section><h3>Contact</h3></section>
+  </div>
+
+<div class="main">
+    <h1>It's Great to Enumerate</h1>
+    <h2>Traversing the Enumerable Module</h2>
+
+    <section>
+      <p>
+        The Enumerabable Module is one of the more esoteric concecepts in Ruby for the newb, because it has methods that work on a number of different classes, and you can even mix the Enumerable Module into your own classes when you create them, although the methods in the Enumerable Module are not all the same in any class, and simimlarly names methods do not work the same in eveyr class.
+      </p>
+      <p>
+        Consider the Enumerable#map method. This is a robust method that will allow you to iterate a block of code over an array, and produce an array that has the block of code effect each item. For instance, if you have an arraty of names, and you want them all to be to be capitalized, you can apply the .map method as follows:
+      </p>
+      <p>
+        names_arr = ["rebecca", "yanni", "james", "ramon", "ben"]
+        <br> names_arr.map {|name| name.capitalize }
+        <br> => ["Rebecca", "Yanni", "James", "Ramon", "Ben"]
+      </p>
+      <p>
+        Each item in the array is capitalized, and the result in an array. The .map method iterates over the array and produces a result that is itself an array, without using a loop of any kind. This is a powerful option and just the start of what one can do the apply the Enumerable Module.
+      </p>
+
+    </section>
+
+  <h4>June 11, 2015</h4>
+
+</div>
+
+  <div class="footer">
+    <section><a href="#"><img src="../imgs/twitter.png" height="25" width="25"></a></section>
+    <section><a href="#"><img src="../imgs/facebook500.png" height="25" width="25"></a></section>
+    <section><a href="#"><img src="../imgs/github.png" height="25" width="25"></a></section>
+    <section><a href="#"><img src="../imgs/linkedin.png" height="25" width="25"></a></section>
+    <section><a href="#"><img src="../imgs/googleplus.png" height="25" width="25"></a></section>
+  </div>
+</body>

@@ -1,0 +1,44 @@
+* {
+  font-family: Georgia;
+  font-weight: bold;
+/*   background-image: url(../imgs/Cheops4.jpg);*/
+}
+
+.header {
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+    }
+
+.main {
+  display: block;
+  text-align: center;
+
+}
+
+#flair {
+  font-family: cursive;
+}
+
+a {
+  display: block;
+}
+
+section {
+  display:inline-block;
+  margin: 10px;
+}
+
+.about {
+  text-align: center;
+}
+
+#background-img {
+  height: 100%;
+}
+
+#main-text {
+  z-index: 1;
+}
