@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Rebecca Kleinberg | Emnumerable Cheat Sheet</title>
+    <link rel="stylesheet" href="cheat-sheet.css">
+  </head>
+  <body>
+      <header>
+          <h1>Ruby Enumerables Cheat Sheet</h1>
+      </header>
+      <section>
+          <p>Enumerators are objects that encapsulate knowledge of how to iterate through a particular collection. Enumerable is a module of methods that can be used on collections, and different datatypes can have their own enumerable methods.</p>
+      </section>
+
+      <div class="border">
+          <section id="left-section">
+              <ul>
+                  <li>
+                      Methods that return booleans
+                      <ul>
+                          <li>all?: iterates over collection with a block, if the block returns true for every item, returns true</li>
+                          <li>any?: iterates over collection with a block, if the block returns true for at least one item, returns true</li>
+                          <li>none? iterates over collection with a block, if the block does not return true for any items, returns true</li>
+                          <li>one?: iterates over collection with a block, if the block returns true for exactly one item, returns true</li>
+                          <li>include? / member?: checks for existence of an item within the collection, if at least one item equals the argument, returns true</li>
+                      </ul>
+                  </li>
+              </ul>
+          </section>
+
+          <section id="right-section">
+              <ul>
+                  <li>
+                      map: iterates over a collection with a block and returns a new array after each item has been passed through the block
+                  </li>
+                  <li>
+                      each_with_index: applies a block of code to each item in a collection by its index</li>
+                  <li>
+                      reduce / inject: applies a binary operation (eg. +) through a block of a symbol to combine all elements of the enumerable
+                  </li>
+                  <li>
+                      select: iterates over a collection, and returns an array of items that return true when passed through the block
+                  </li>
+                  <li>
+                      sort: takes an enumerable and returns them sorted. Can change the order of the sort by passing an optional block.
+                  </li>
+                  <li>
+                      to_a: takes a collection and returns the items in an array
+                  </li>
+                  <li>
+                      to_h: takes a list of two-item collections and returns them as key-value pairs in a hash
+                  </li>
+              </ul>
+          </section>
+      </div>
+      <footer class="border">
+          <p> Brought to you by Chris Graf & Rebecca Kleinberg of the DBC Mud Turtles</p>
+      </footer>
+  </body>
+</html>

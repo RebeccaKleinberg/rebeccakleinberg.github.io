@@ -1,26 +1,26 @@
 * {
   font-family: Georgia;
   font-weight: bold;
-/*   background-image: url(../imgs/Cheops4.jpg);*/
+  background-color: #E4FAFF;
 }
 
 .header {
-  text-align: center;
+  text-align: left;
 }
 
 .footer {
-  text-align: center;
+  text-align: left;
     }
 
 .main {
   display: block;
-  text-align: center;
+  text-align: left;
 
 }
 
-#flair {
+/*#flair {
   font-family: cursive;
-}
+}*/
 
 a {
   display: block;

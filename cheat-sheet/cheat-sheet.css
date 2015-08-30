@@ -1,0 +1,36 @@
+body {
+    background-color: #fbb;
+}
+
+header h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.border {
+    border-style: solid;
+    border-width: 0.5%;
+    border-color: black;
+}
+
+#left-section {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+}
+
+#right-section {
+    float: right;
+    width: 45%;
+    margin: 2.5%;
+}
+
+li {
+    padding: 10px;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    text-align: center;
+}
